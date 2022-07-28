@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;  
+}
+.container{
+    
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    margin: 100px 0px 0px 100px;
+    box-shadow: -20px 18px 12px 11px  gray;
+    /* box-shadow: orqaga soya beradi; */
+    /* 1-son x-boyicha olchov */
+    /* 2-son y-boyicha olchov */
+    /* 3-son rangini xiralashtirish */
+    /* 4-son soyani tarqalish radiusi */
+    
+}
+.heading-titil{
+    margin: 300px 0px 0px 200px;
+    text-shadow: 50px 20px 5px red;
+
+}
+.box{
+    background-color: darkcyan;
+    width: 400px;
+    height: 500px;
+    margin: 40px 0px 0px 40px;
+
+
+
+}
+.box:hover{
+    background-color: rgb(109, 116, 122);
+    border-radius: 50px;
+    /* mishka ustiga borsa ozgaradi shu holga */
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 23px;
+    margin: 100px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: none;
+    /* border: none; ->chekkasini tozalab beradi */
+    border-radius: 30px;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+    /* cursor: pointer;->mishkani olib borganda qolga aylantirib berdi */
+   transition: 1s;
+}
+.btn:focus{
+    /* focus->bosganda ozgartiradi */
+    transition: 1s;
+    /* transition: 1s;->shuncha vaqtda otishini taminlaydi */
+
+    box-shadow: 0px 0px 0px 5px #99cbfc;
+}
+.link{
+    color: #99cbfc;
+}
+.link:visited{
+    /* visited -> saytga kirganimizdan keyin shu holga kelib qoladi */
+    color: aquamarine;
+}
+
+li:first-child{
+    background-color: #99cbfc;
+    font-size: 23px;
+    color: #fff;
+    width: 300px;
+}
+li:nth-child(3){
+    background-color: #99cbfc;
+    font-size: 23px;
+    color: #fff;
+    width: 300px;
+    
+}
